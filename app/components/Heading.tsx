@@ -20,7 +20,7 @@ export const Heading = ({ onActivate }: HeadingProps) => {
 
   return (
     <header className="fixed z-20  w-full max-w-full mx-auto  border-b border-b-lightGrey bg-white">
-      <div className="flex justify-between items-center p-2 md:py-4 md:px-8 lg:px-16 xl:px-56">
+      <div className="flex justify-between items-center p-2 md:py-4 md:px-8 lg:px-16 xl:px-8 2xl:px-56">
         <Link href="/">
           <Image
             src={logo}

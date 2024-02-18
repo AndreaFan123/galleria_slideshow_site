@@ -14,10 +14,10 @@ export const ArtworkDescription = ({
 }: ArtworkDescriptionProps) => {
   return (
     <article className="w-full flex flex-col lg:w-1/2 lg:items-end">
-      <span className="text-[6.3rem] md:text-[10rem] xl:text-[12.5rem] text-gray-200 inline-block w-full text-end md:text-start lg:text-end">
+      <span className="text-[6.3rem] md:text-[10rem] xl:text-[12.5rem] text-gray-200 inline-block w-full text-end md:text-start lg:text-center">
         {year}
       </span>
-      <div className="lg:w-full lg:flex lg:flex-col lg:items-start lg:pl-48 lg:mt-[-8rem]">
+      <div className="lg:w-full lg:flex lg:flex-col lg:items-start lg:pl-48 xl:pl-32 2xl:pl-40 lg:mt-[-8rem]">
         <p className="description mt-[-50px] md:w-[457px] md:mt-[-115px] md:ml-[125px] lg:ml-0 lg:mt-4 lg:w-[350px] lg:leading-7">
           {description}
         </p>

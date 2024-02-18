@@ -20,7 +20,7 @@ export default function Slideshow() {
 
   return (
     <>
-      <div className="w-full px-4 md:px-8 lg:px-16 xl:px-56">
+      <div className="w-full px-4 md:px-8 lg:px-16 xl:px-8 2xl:px-56">
         {galleries.map((gallery, index) => (
           <div
             key={index}
@@ -34,7 +34,7 @@ export default function Slideshow() {
           </div>
         ))}
       </div>
-      <div className="flex bg-white fixed bottom-0 py-5 w-full  justify-between  border-t border-t-lightGrey px-4 md:px-16 xl:px-56">
+      <div className="flex bg-white fixed bottom-0 py-5 w-full  justify-between  border-t border-t-lightGrey px-4 md:px-16 xl:px-8 2xl:px-56">
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-sm">{galleries[currentSlide].name}</h3>
           <span className="font-medium text-xs">

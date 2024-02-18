@@ -10,22 +10,22 @@ export default function HomePage() {
     <section className="grid grid-cols-2 lg:grid-cols-4 gap-4 px-4 lg:px-16 xl:px-56 xl:pb-24">
       <div className="grid gap-4">
         {grid_1.map((gallery) => (
-          <Thumbnail item={gallery} />
+          <Thumbnail item={gallery} key={gallery.name} />
         ))}
       </div>
       <div className="grid gap-4">
         {grid_2.map((gallery) => (
-          <Thumbnail item={gallery} />
+          <Thumbnail item={gallery} key={gallery.name} />
         ))}
       </div>
       <div className="grid gap-4">
         {grid_3.map((gallery) => (
-          <Thumbnail item={gallery} />
+          <Thumbnail item={gallery} key={gallery.name} />
         ))}
       </div>
       <div className="grid gap-4">
         {grid_4.map((gallery) => (
-          <Thumbnail item={gallery} />
+          <Thumbnail item={gallery} key={gallery.name} />
         ))}
       </div>
     </section>
